@@ -1,0 +1,45 @@
+Vocabulary
+
+Day 1
+    Interpreter - Python's way of executing its code
+    Variable - name that stores and refers to data
+    String - data type denoted by ''
+    Integer - a whole number that is positive or negative
+    Float - rational number or a decimal
+    Boolean - true/false statement
+    Modulo - remainder
+    Arithmetic operator - performs math computation on data
+    Assignment operator - perform math operation and reassign result to the variable
+    Concatenation - directly combining different strings with a + operator
+    String templating - plugging valid python code directly into 'f' strings
+
+Day 2
+    Conditional - a statement that resolves to True or False
+    Immutable - not able to be changed
+    Mutable - able to be changed
+    if - when a condition is met, execute the following code
+    elif - if preceeding condition False, but resolves to True, execute the following code
+    else - default conditional statement, execute following code
+
+Day 3
+    List - mutable and ordered data type denoted by square brackets
+    Tuple - Immutable and ordered data type denoted by parentheses and comma ("",)
+            more performent
+    Set - Mutable and unordered data type denoted by curly brackets
+    for loop - block of iterable code that is executed over a number of items specified 
+               in a sequence
+    while loop - block of code that is repeated while condition is True
+
+Day 4
+    Dictionary - a mutable, unordered set, of key:value pairs denoted by { : }
+    Function - named, reusable block of code that can take in & return information
+    Scope - bounded region that contains local information but can access information
+            from its parent scope (bad practice)
+    Parameter - what a function asks for in the definition
+    Argument - what you pass into a function
+    Return - data that is passed back from a function, None is the default return if 
+             no other return is specified
+    Code block - indented region of code
+    Procedure - sequential steps you take performing actions
+    Encapsulation - packing data and functions into a component, allowing scope restrictions
+    Abstraction - obfuscation of lower-level functions to make code more approachable
