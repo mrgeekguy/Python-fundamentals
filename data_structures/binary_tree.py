@@ -1,4 +1,4 @@
-# Binary Tree
+# Binary Tree Data Structure
 
 class TreeNode:
     def __init__(self, value):
@@ -78,8 +78,3 @@ new_tree = BinaryTree()
 new_tree.add_node("finally")
 new_tree.add_node("another")
 new_tree.add_node("answer")
-
-    
-
-
-    

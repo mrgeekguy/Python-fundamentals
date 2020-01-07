@@ -26,6 +26,9 @@ class Node:                                 # single object in our node
         self.data = data
         self.next = None
 
+    def __repr__(self):
+        return f'{ self.data } -> { self.next}'
+
     def get_data(self):                     # gets data
         return self.data
 

@@ -1,6 +1,7 @@
+# Simple function that is testable using
+# test_operations.py file
 
 def traffic_light_choice(car, light):
-    car_movement = ""
     if car == "moving":
         if light == "red":
             car_command = "stop"

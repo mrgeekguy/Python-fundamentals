@@ -5,6 +5,9 @@ class UnorderedList:
     def __init__(self):             # doesn't take anything for now
         self.head = None
 
+    def __repr__(self):
+        return f'[ UL {self.head} ]'
+
     def add_item(self, new_item):
         temp = Node(new_item)
         temp.set_next(self.head)    # because Node is None
@@ -66,14 +69,14 @@ class UnorderedList:
         
 
     
-my_linked = UnorderedList()
-my_linked.add_item(89)
-my_linked.add_item("Hello")
+# my_linked = UnorderedList()
+# my_linked.add_item(89)
+# my_linked.add_item("Hello")
 
-print(my_linked.length())
+# print(my_linked.length())
 
-my_linked.remove(89)
+# my_linked.remove(89)
 
-print(my_linked.length())
+# print(my_linked.length())
 
-print(my_linked.search("Hell"))
+# print(my_linked.search("Hell"))
